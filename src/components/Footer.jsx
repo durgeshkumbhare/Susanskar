@@ -2,6 +2,7 @@ import React from "react";
 import { IoLocationSharp, IoCall, IoMailSharp } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa";
 import { FaRegCopyright, FaFacebook, FaInstagram } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -39,10 +40,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-black flex flex-col ml-4">
-          <h2 className="mb-4 flex  text-nowrap">Important Links</h2>
-          <a href="/contact">Contact Us</a>
-          <a href="/about">About Us</a>
-          <a href="/">About our Founders</a>
+          <h2 className="mb-4 flex  font-bold">Important Links</h2>
+          <Link to="/contact">Contact Us</Link>
+          <Link to="/about">About Us</Link>
+          <Link to="/management">About our Founders</Link>
         </div>
 
         <div className="ml-2 hidden md:block">

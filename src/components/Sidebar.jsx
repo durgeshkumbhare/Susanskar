@@ -56,7 +56,7 @@ const Sidebar = () => {
           Admission Form
         </Link>
         <Link
-          to="/about"
+          to="/contact"
           className="mt-1 mr-4 text-gray-700 text-xl font-semibold font-serif  hover:text-black capitalize"
           onClick={closeSidebar}
         >
