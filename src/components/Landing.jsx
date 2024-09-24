@@ -53,7 +53,7 @@ const Landing = () => {
           <div>
             <div className="flex flex-col md:flex-row gap-4 justify-between">
               <div className="h-[30rem] w-96">
-                <img src={img2} className="h-96 w-96 object-cover mt-2" />
+                <img src={img2} className="h-80 w-80 md:h-96 md:96 object-cover mt-2" />
               </div>
               <p className="max-w-[50rem] tracking-wide font-serif">
                 <span className="block mb-4 font-bold">
