@@ -39,10 +39,10 @@ const Navbar = () => {
               className="dropdown-content mt-10 menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
             >
               <li>
-                <a href="/about">About Us</a>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
-                <a href="/management"> About Managment</a>
+                <Link to="/management"> About Managment</Link>
               </li>
             </ul>
           </div>

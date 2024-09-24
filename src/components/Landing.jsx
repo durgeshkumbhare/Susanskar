@@ -52,41 +52,51 @@ const Landing = () => {
           <p className="border-b-4 border-green-400 mb-8"></p>
           <div>
             <div className="flex flex-col md:flex-row gap-4 justify-between">
-              <div className="h-[30rem] w-96">
-                <img src={img2} className="shrink w-96 h-96  object-cover mt-2" />
+              <div className="h-[30rem] max-w-96 flex flex-col pr-8">
+                <img
+                  src={img2}
+                  className="  h-96 shrink  p-2 object-cover mt-2"
+                />
+                <h1 className="text-[#5e749f] text-2xl font-bold ml-6">
+                  Mrs. K. Usha
+                </h1>
               </div>
-              <p className="max-w-[50rem] tracking-wide font-serif">
-                <span className="block mb-4 font-bold">
-                  Dear Parents and Students,
-                </span>
-                It is with great pleasure that I welcome you to our school's
-                Website. As Principal I am hugely impressed by the commitment of
-                the management and the staff for providing excellent all round
-                education for our students. The school that is being run under
-                the well-established management of Susanskar Bahhuddeshiy
-                Shikshan Sanstha has earned its name and fame by imparting
-                excellent education since last 20 years. At our institution, we
-                provide an atmosphere for multifaceted devel opment where
-                children are encouraged to channelize their potential in the
-                pursuit of excellence. The school strives hard to make the best
-                possible efforts to instill strong values integrating with
-                academics and extra-curricular activities to the children.
-                Transforming every individual into a self-reliant and
-                independent citizen, the school provides a blending of
-                scholastic and co-scholastic activites. While academic
-                excellence is our major thrust, the school is also devoted to
-                prepare students for life, groom endeavour to always live up to
-                this ideology and inculcate this into everything we do, with the
-                aim that we will be able to ensure that the children grow to
-                their full potential, while constantly being groomed to pass out
-                as men and women competent to bear responsibility in all walks
-                of life. The parents are the most stregthening power in shaping
-                the future of children and their consistent support empowers us
-                to do more and more. I pay my gratitude to them for their faith
-                in us. I would like to extend my sincere gratitude and
-                appreciation for all of the hardworking and dedicated educators
-                and staff serving the school.
-              </p>
+              <div className="max-w-[40rem]">
+                
+                <p className=" tracking-wide font-serif flex-wrap">
+                  <span className="block mb-4 font-bold">
+                    Dear Parents and Students,
+                  </span>
+                  It is with great pleasure that I welcome you to our school's
+                  Website. As Principal I am hugely impressed by the commitment
+                  of the management and the staff for providing excellent all
+                  round education for our students. The school that is being run
+                  under the well-established management of Susanskar
+                  Bahhuddeshiy Shikshan Sanstha has earned its name and fame by
+                  imparting excellent education since last 20 years. At our
+                  institution, we provide an atmosphere for multifaceted devel
+                  opment where children are encouraged to channelize their
+                  potential in the pursuit of excellence. The school strives
+                  hard to make the best possible efforts to instill strong
+                  values integrating with academics and extra-curricular
+                  activities to the children. Transforming every individual into
+                  a self-reliant and independent citizen, the school provides a
+                  blending of scholastic and co-scholastic activites. While
+                  academic excellence is our major thrust, the school is also
+                  devoted to prepare students for life, groom endeavour to
+                  always live up to this ideology and inculcate this into
+                  everything we do, with the aim that we will be able to ensure
+                  that the children grow to their full potential, while
+                  constantly being groomed to pass out as men and women
+                  competent to bear responsibility in all walks of life. The
+                  parents are the most stregthening power in shaping the future
+                  of children and their consistent support empowers us to do
+                  more and more. I pay my gratitude to them for their faith in
+                  us. I would like to extend my sincere gratitude and
+                  appreciation for all of the hardworking and dedicated
+                  educators and staff serving the school.
+                </p>
+              </div>
             </div>
           </div>
         </div>
