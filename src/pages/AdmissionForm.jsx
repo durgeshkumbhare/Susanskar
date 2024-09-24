@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 
 const AdmissionForm = () => {
   const [formData, setFormData] = useState({
@@ -43,6 +44,7 @@ const AdmissionForm = () => {
   return (
    <section>
     <Navbar />
+    <Sidebar/>
      <div className="px-20 mx-auto p-8 bg-white shadow-md ">
       <h2 className="text-2xl font-bold mb-6 text-center">
         School Admission Form
