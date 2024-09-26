@@ -40,7 +40,7 @@ const Vision = () => {
         <div className="flex gap-4 flex-wrap justify-center items-center">
           <div className="card bg-[#427BD2] text-white w-96 h-80 shrink-0">
             <div className="card-body">
-              <h2 className="card-title">Visualization</h2>
+              <h2 className="card-title text-yellow-400 ">Visualization</h2>
               <p>
                 Bring dull academic concepts to life with visual and practical
                 learning experiences, helping the students to understand how
@@ -53,7 +53,7 @@ const Vision = () => {
           </div>
           <div className="card bg-[#427BD2]  text-white w-96 h-80">
             <div className="card-body">
-              <h2 className="card-title">Cooperative learning</h2>
+              <h2 className="card-title text-yellow-400">Cooperative learning</h2>
               <p>
                 Encourage students of mixed abilities to work together by
                 promoting small group or whole class activities.
@@ -62,7 +62,7 @@ const Vision = () => {
           </div>
           <div className="card bg-[#427BD2] text-white w-96 h-80">
             <div className="card-body">
-              <h2 className="card-title">Inquiry-based instruction</h2>
+              <h2 className="card-title text-yellow-400">Inquiry-based instruction</h2>
               <p>
                 Pose thought-provoking questions which inspire the students to
                 think for themselves and become more independent learners.
@@ -71,7 +71,7 @@ const Vision = () => {
           </div>
           <div className="card bg-[#427BD2] text-white w-96 h-80">
             <div className="card-body">
-              <h2 className="card-title">Differentiation</h2>
+              <h2 className="card-title text-yellow-400">Differentiation</h2>
               <p>
                 Differentiate the teaching by allocating tasks based on
                 students’s abilities, to ensure no one gets left behind.
@@ -80,7 +80,7 @@ const Vision = () => {
           </div>
           <div className="card bg-[#427BD2] text-white w-96 h-80">
             <div className="card-body">
-              <h2 className="card-title">Technology in the classroom</h2>
+              <h2 className="card-title text-yellow-400">Technology in the classroom</h2>
               <p>
                 Incorporating technology into teaching is a great way to
                 actively engage the students, especially as digital media
@@ -90,7 +90,7 @@ const Vision = () => {
           </div>
           <div className="card bg-[#427BD2] text-white w-96 h-80">
             <div className="card-body">
-              <h2 className="card-title">Behaviour Management</h2>
+              <h2 className="card-title text-yellow-400">Behaviour Management</h2>
               <p>
                 Implementing an effective behaviour management strategy is
                 crusial to gain the students respect and ensure students have an
@@ -100,7 +100,7 @@ const Vision = () => {
           </div>
           <div className="card bg-[#427BD2] text-white w-96 h-80">
             <div className="card-body">
-              <h2 className="card-title">Professional Development</h2>
+              <h2 className="card-title text-yellow-400">Professional Development</h2>
               <p>
                 Engaging teachers in regular professional development programmes
                 is a great way to enhance teaching and learning in the
