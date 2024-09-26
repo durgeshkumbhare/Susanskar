@@ -38,7 +38,7 @@ const Vision = () => {
           enhance the value and qulaity of education. It believes in :
         </p>
         <div className="flex gap-4 flex-wrap justify-center items-center">
-          <div className="card bg-[#427BD2] text-white w-96 h-80 shrink-0">
+          <div className="card bg-[#427BD2] text-white w-96 h-80 ">
             <div className="card-body">
               <h2 className="card-title text-yellow-400 ">Visualization</h2>
               <p>
