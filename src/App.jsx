@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Managment from "./pages/Managment";
 import AdmissionForm from "./pages/AdmissionForm";
+import Vision from "./pages/Vision";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/management" element={<Managment />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/admission" element={<AdmissionForm />} />
+        <Route path="/vision" element={<Vision />} />
       </Routes>
     </main>
   );

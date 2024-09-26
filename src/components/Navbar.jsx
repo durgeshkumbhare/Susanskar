@@ -44,6 +44,9 @@ const Navbar = () => {
               <li>
                 <Link to="/management"> About Managment</Link>
               </li>
+              <li>
+                <Link to="/vision">Vision & Mission</Link>
+              </li>
             </ul>
           </div>
           <Link
